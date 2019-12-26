@@ -16,5 +16,5 @@ jobs:
       # The action should not publish any real changes, but should succeed.
       uses: './'
       with:
-        github_token: '${{ secrets.GITHUB_TOKEN }}'
+        github_token: '${{ secrets.githubtoken }}'
         branch: '${{ github.ref }}'
